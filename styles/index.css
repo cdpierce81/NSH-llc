@@ -46,13 +46,35 @@ nav a {
 .site-header {
 	padding: 10px;
 	text-align: center;
-	text-shadow: hoff voff blur #000;
+	text-shadow: 2px 2px black;
 	color: white;
 	font-size: 20px;
 }
 
+div.picture {
+	position: relative;
+	padding: 10px 10px 70px 10px;
+	border: 1px solid #BFBFBF;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	background-color: white;
+}
+
+.left {
+	float: left;
+	-ms-transform: rotate(25deg);
+	-webkit-transform: rotate(25deg);
+	transform: rotate(25deg);
+}
+
+.right {
+	float: left;
+	-ms-transform: rotate(-25deg);
+	-webkit-transform: rotate(-25deg);
+	transform: rotate(-25deg);
+}
+
 .site-title {
-	padding: 50px;
+	padding: 0 25px;
 	text-align: center;
 	font-variant: small-caps;
 	font-size: 25px;
@@ -64,6 +86,10 @@ nav a {
 	margin: 50px;
 	padding: 0 50px;
 	font-size: 20px;
+}
+
+.image {
+	text-align: center;
 }
 
 .list li {
